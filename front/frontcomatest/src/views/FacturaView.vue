@@ -148,15 +148,13 @@ export default {
             console.log(this.addFactura)
             axios.delete('http://localhost:5287/api/Factura/EliminarFacturas?id=' + this.deleteFactura.id).then((res)=>{
                 console.log(res);
+                location.reload();
             }).catch((error) => {
                 // error.response.status Check status code
                 if(error.status == 403){
                     $('#deleteModal').modal('hide');
                     this.badrequest = true
                 }
-            }).finally(() => {
-                //Perform action in always
-                location.reload();
             });
         },
         onSubmit(form){
