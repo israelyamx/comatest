@@ -9,7 +9,25 @@ Aplicacion de prueba para listar clientes y facturas
 
 Clona el proyecto
 
+Descargar e instalar SQL Server developer
+
+https://www.microsoft.com/es-MX/sql-server/sql-server-downloads
+
+Descargar e instalar SQL Server Management Studio
+
+https://learn.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+
+Descargar e instalar al menos visual studio code community
+
+https://visualstudio.microsoft.com/es/vs/community/
+
+Instalar la version de .netcore 6
+
+
+
 Abrir la solución en visual studio code. Version .netcore 6
+
+Compilar para restaurar los paquetes NuGet
 
 Abrir consola del administrador de paquetes (Herramientas > Administrador de paquetes NuGet > Consola del administrador de paquetes) y correr el comando
 
@@ -17,6 +35,10 @@ Abrir consola del administrador de paquetes (Herramientas > Administrador de paq
     Update-Database
 ```
 Esto creara la base de datos y tablas
+
+Descargar e instalar nodejs
+
+https://nodejs.org/en/download/prebuilt-installer/current
 
 ## Proyecto front vue
 
@@ -32,4 +54,9 @@ Despues levantar el servicio
   npm run dev 
 ```
 
+
+
+## Screenshots
+
+![Netcore6](https://raw.githubusercontent.com/israelyamx/comatest/refs/heads/main/netcore6.png)
 
